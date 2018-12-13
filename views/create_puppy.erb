@@ -1,9 +1,17 @@
+
+
+<h1>List a Puppy!</h1>
+
 <form method="post" action="/puppy">
-  <label for="name"> Puppy Name</label>
-  <input type="text" id="name" name="name">
-  <label for="breed"> Puppy Breed</label>
-  <input type="text" id="breed" name="breed">
-  <label for="age"> Puppy Age</label>
-  <input type="text" id="age" name="age">
+  <%# <label for="name"> Puppy Name</label> %>
+  <p>Please enter the puppy's name: <input name="puppy[name]"></p>
+  <%# <label for="breed"> Puppy Breed</label> %>
+  <p>Please enter the puppy's breed: <input name="puppy[breed]"></p>
+  <%# <label for="age"> Puppy Age</label> %>
+  <p>Please enter the puppy's age: <input name="puppy[age]"></p><br/>
   <input type="submit" value="submit">
 </form>
+
+
+
+
